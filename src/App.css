@@ -7,6 +7,159 @@
   pointer-events: none;
 }
 
+.headerBar0 {
+  background: linear-gradient(91.65deg, #dfe4e3 2.8%, #2d786e 113.51%);
+}
+
+.headerBar {
+  background: linear-gradient(91.65deg, #D1E5E1 2.8%, #106358 113.51%);
+}
+
+.headerBar1 {
+  background: linear-gradient(91.65deg, #91a4a0 2.8%, #054940 113.51%);
+}
+
+.main {
+  background: linear-gradient(182.43deg, #007A67 3.31%, rgba(0, 122, 103, 0.2) 83.37%); 
+}
+
+.mainRegister {
+  background: linear-gradient(180deg, #007A67 0%, rgba(0, 122, 103, 0.2) 100%);
+}
+
+.mainHome {
+  background: linear-gradient(107.11deg, rgba(209, 229, 225, 0.3) 3.01%, rgba(16, 99, 88, 0.3) 96.54%);
+}
+
+.bgAboutUs {
+  background: linear-gradient(180deg, #FFE27B 0%, rgba(255, 230, 137, 0.734375) 44.91%, rgba(255, 240, 174, 0) 135.37%);
+}
+
+.bgAboutUsTwo {
+  background: #106358;
+}
+
+.bgSendEmail {
+  background: #001F30;
+}
+
+.leftButton {
+  width: 100%;
+  height: 50px;
+  background-image: url("../src/imgs/Home/leftButton.png");
+}
+
+.rightButton {
+  width: 100%;
+  height: 50px;
+  background-image: url("../src/imgs/Home/rightButton.png");
+}
+
+.button5 {
+  border-radius: 40%;
+}
+
+.gpsOfferText {
+  font-family: 'Avenir LT Std';
+  font-style: normal;
+  color: #343434;
+}
+
+.shadow {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.boxBg {
+  --mask:
+    radial-gradient(313.05px at 50% calc(100% - 420.00px),#000 99%,#0000 101%) calc(50% - 280px) 0/560px 100%,
+    radial-gradient(313.05px at 50% calc(100% + 280.00px),#0000 99%,#000 101%) 50% calc(100% - 140px)/560px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
+
+.findBox {
+  --mask:
+    radial-gradient(290.69px at 50% calc(100% - 390.00px),#000 99%,#0000 101%) calc(50% - 260px) 0/520px 100%,
+    radial-gradient(290.69px at 50% calc(100% + 260.00px),#0000 99%,#000 101%) 50% calc(100% - 130px)/520px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
+
+.footerBox {
+  --mask:
+    radial-gradient(290.69px at 50% 390.00px,#000 99%,#0000 101%) calc(50% - 260px) 0/520px 100%,
+    radial-gradient(290.69px at 50% -260px,#0000 99%,#000 101%) 50% 130px/520px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
+
+.supportBox {
+  --mask:
+    radial-gradient(122.98px at 50% calc(100% - 165.00px),#000 99%,#0000 101%) calc(50% - 110px) 0/220px 100%,
+    radial-gradient(122.98px at 50% calc(100% + 110.00px),#0000 99%,#000 101%) 50% calc(100% - 55px)/220px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
+
+.bgSupportMessage {
+   width: 101%;
+   height: 890px;
+   background-image: url("../src/imgs/Support/bgSupport.png");
+}
+
+.bgSignIn {
+  width: 100%;
+  height: 900px;
+  background-image: url("../src/imgs/Register/fondo.png");
+}
+
+.bgFindPlace {
+  background-color: #106358;
+}
+
+.submitBtn {
+  background: linear-gradient(180deg, #007A67 0%, rgba(0, 122, 103, 0.4) 100%);
+}
+
+.findStoreBtn {
+  background: linear-gradient(274.99deg, #01433A 0%, rgba(16, 99, 88, 0.27) 96.8%);
+  box-shadow: 0px 81px 23px rgba(45, 225, 66, 0.01), 0px 52px 21px rgba(45, 225, 66, 0.04), 0px 29px 17px rgba(45, 225, 66, 0.15), 0px 13px 13px rgba(45, 225, 66, 0.26), 0px 3px 7px rgba(45, 225, 66, 0.29), 0px 0px 0px rgba(45, 225, 66, 0.3);
+}
+
+.registerBtn {
+  background: linear-gradient(180deg, #106358 0%, rgba(0, 122, 103, 0.4) 100%); 
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px 0px 0px 10px;
+}
+
+.signInBtn {
+  background: linear-gradient(180deg, #D9D9D9 0%, rgba(0, 122, 103, 0.4) 100%); 
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 10px 10px 0px;
+}
+
+.footerStyle {
+  background: linear-gradient(277.3deg, #00554A 0.47%, rgba(14, 89, 79, 0) 84.14%);
+}
+
+.downloadStyle {
+  font-family: 'Lovelace Text';
+  font-style: normal;
+}
+
+.findStoreBtn {
+  background: linear-gradient(274.91deg, #106358 14.5%, rgba(16, 99, 88, 0.27) 96.79%);
+  box-shadow: 0px 81px 23px rgba(45, 225, 66, 0.01), 0px 52px 21px rgba(45, 225, 66, 0.04), 0px 29px 17px rgba(45, 225, 66, 0.15), 0px 13px 13px rgba(45, 225, 66, 0.26), 0px 3px 7px rgba(45, 225, 66, 0.29), 0px 0px 0px rgba(45, 225, 66, 0.3);
+}
+
+.imageCircle {
+  border-radius: 50%;
+}
+
+.copyRight {
+  background-color: #106358;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
